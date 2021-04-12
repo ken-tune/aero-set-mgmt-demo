@@ -1,4 +1,4 @@
-package com.aerospike.demo.criteoSetMgmt;
+package com.aerospike.demo.setMgmt;
 
 public class TestConstants {
     public static String HOST = "54.147.37.34";

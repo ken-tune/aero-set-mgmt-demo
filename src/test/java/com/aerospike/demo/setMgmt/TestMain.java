@@ -1,4 +1,4 @@
-package com.aerospike.demo.criteoSetMgmt;
+package com.aerospike.demo.setMgmt;
 
 import com.aerospike.client.AerospikeClient;
 import com.aerospike.client.Host;

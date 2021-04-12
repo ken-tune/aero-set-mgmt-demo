@@ -1,4 +1,4 @@
-package com.aerospike.demo.criteoSetMgmt;
+package com.aerospike.demo.setMgmt;
 
 public class Constants {
     public static final int AEROSPIKE_SERVER_PORT = 3000;

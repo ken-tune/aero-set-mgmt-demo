@@ -1,11 +1,10 @@
-package com.aerospike.demo.criteoSetMgmt;
+package com.aerospike.demo.setMgmt;
 
 import com.aerospike.client.*;
 import com.aerospike.client.cluster.Node;
 import com.aerospike.client.exp.Exp;
 import com.aerospike.client.exp.Expression;
 import com.aerospike.client.policy.*;
-import com.aerospike.client.query.RecordSet;
 import com.aerospike.client.query.Statement;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.HelpFormatter;

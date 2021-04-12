@@ -1,7 +1,4 @@
-package com.aerospike.demo.criteoSetMgmt;
-
-import com.aerospike.client.AerospikeClient;
-import com.aerospike.client.Language;
+package com.aerospike.demo.setMgmt;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

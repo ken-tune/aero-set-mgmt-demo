@@ -1,4 +1,4 @@
-# Set management Demo
+# Aerospike set management demo
 
 This excecutable implements the following vs Aerospike
 

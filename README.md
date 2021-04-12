@@ -28,6 +28,29 @@ java -jar ./target/set-mgmt-demo-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ```
 
+## Sample usage and output
+```
+java -jar set-mgmt-demo-1.0-SNAPSHOT-jar-with-dependencies.jar -c 1000 -m 23 -hl 500 -sl 400 -h localhost -n test -s testSet
+Node localhost/127.0.0.1:3000, Set testSet
+Truncating with TTL 1192320
+Truncate timestamp Mon Apr 26 10:36:41 UTC 2021
+This will leave 273 records
+Node hard Limit : 333
+Node soft Limit : 266
+Node /10.0.1.66:3000, Set testSet
+Truncating with TTL 854496
+Truncate timestamp Thu Apr 22 12:46:17 UTC 2021
+This will leave 284 records
+Node hard Limit : 333
+Node soft Limit : 266
+Node /10.0.0.229:3000, Set testSet
+Truncating with TTL 337824
+Truncate timestamp Fri Apr 16 13:15:05 UTC 2021
+This will leave 293 records
+Node hard Limit : 333
+Node soft Limit : 266
+```
+
 ## Build Instructions
 
 ```bash
